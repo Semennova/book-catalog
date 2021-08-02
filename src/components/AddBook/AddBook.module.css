@@ -1,0 +1,41 @@
+.formControl{
+    background: #E4E8EF;
+    display: inline-block;
+    padding: 40px  30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 30%
+}
+
+.formControl input {
+    margin: 10px 0;
+    border: 0;
+    padding: 5px;
+    border-radius: 2px;
+    display: block;
+    width: 100%
+}
+
+
+.submitBtn{
+    background-color: #FF8C00;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.submitBtn:hover{
+    cursor: pointer;
+}
+
+.validationError, .message{
+    border: red 1px solid;
+    border-radius: 3px;
+    color: red;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: .9em;
+}

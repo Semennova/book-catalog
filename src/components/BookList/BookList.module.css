@@ -1,0 +1,77 @@
+.bookList{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.bookItem{
+    border: 0;
+    background: #FF8C00;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    gap: 15px
+}
+.bookDescription{
+    margin-bottom: 20px;
+}
+
+.editBtn, .deleteBtn{
+    background: none;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 15px 10px 5px 0
+}
+
+.editBtn, .deleteBtn:hover{
+    cursor: pointer;
+}
+
+.deleteBtn{
+    color: #FF3E56;
+    border: #FF3E56 2px solid;
+}
+
+.editBtn{
+    color: #fff;
+    border: #fff 2px solid;
+}
+
+.inEditMode{
+    display: flex;
+    gap: 15px;
+    border: 0;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #F7D0AF;
+}
+
+.inEditMode .itemInEditMode{
+    display: block;
+    padding: 3px;
+    margin: 5px 0;
+    border: 0;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.saveBtn{
+    background-color: #fff;
+    color: #FF8C00;
+    padding: 5px 10px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-weight: bold; 
+}
+.saveBtn:hover{
+    cursor: pointer;
+}
+
+.bookImg{
+    width: 100px
+}
